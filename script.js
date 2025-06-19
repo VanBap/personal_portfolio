@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Scroll animations
     function animateOnScroll() {
-        const elements = document.querySelectorAll('.skill-category, .project-card, .stat, .contact-item');
+        const elements = document.querySelectorAll('.skill-category, .project-card, .stat, .contact-item, .timeline-item, .academic-category, .quote-banner');
         
         elements.forEach(element => {
             const elementTop = element.getBoundingClientRect().top;
@@ -152,6 +152,30 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
+    // Academic timeline animation
+    const timelineItems = document.querySelectorAll('.timeline-item');
+    timelineItems.forEach((item, index) => {
+        item.style.animationDelay = `${index * 0.3}s`;
+    });
+
+    // Academic categories stagger animation
+    const academicCategories = document.querySelectorAll('.academic-category');
+    academicCategories.forEach((category, index) => {
+        category.style.animationDelay = `${index * 0.2}s`;
+    });
+
+    // Academic list items hover effect
+    const academicListItems = document.querySelectorAll('.academic-list li');
+    academicListItems.forEach(item => {
+        item.addEventListener('mouseenter', function() {
+            this.style.animation = 'subtle-glow 0.3s ease-in-out';
+        });
+        
+        item.addEventListener('animationend', function() {
+            this.style.animation = '';
+        });
+    });
+
     // Quote rotation
     const quotes = [
         '"No matter what anybody tells you, words and ideas can change the world."',
@@ -196,7 +220,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     // Custom cursor effect for interactive elements
-    const interactiveElements = document.querySelectorAll('button, .btn, .nav-link, .project-card, .social-link');
+    const interactiveElements = document.querySelectorAll('button, .btn, .nav-link, .project-card, .social-link, .timeline-card, .academic-category');
     
     interactiveElements.forEach(element => {
         element.addEventListener('mouseenter', function() {
@@ -295,6 +319,12 @@ style.textContent = `
         0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
         40% { transform: translateY(-10px); }
         60% { transform: translateY(-5px); }
+    }
+    
+    @keyframes subtle-glow {
+        0% { text-shadow: none; }
+        50% { text-shadow: 0 0 8px rgba(218, 165, 32, 0.6); }
+        100% { text-shadow: none; }
     }
     
     .loaded {
