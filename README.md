@@ -107,9 +107,8 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 
 If you have any questions or suggestions, feel free to reach out:
 
-- **Email**: your.email@example.com
-- **LinkedIn**: [Your LinkedIn Profile]
-- **GitHub**: [Your GitHub Profile]
+- **Email**: vanbap20021599@gmail.com
+- **LinkedIn**: https://www.linkedin.com/in/vanbbap/
 
 ---
 
