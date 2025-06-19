@@ -3,25 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VanBap - Software Engineer Portfolio</title>
+    <title>Software Engineer | Portfolio</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
     <nav class="navbar">
         <div class="nav-container">
             <a href="#home" class="nav-logo">
-                <span>VanBap</span>
+                <i class="fas fa-feather-alt"></i>
+                <span>Portfolio</span>
             </a>
             <ul class="nav-menu">
                 <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#academics" class="nav-link">Academics</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
                 <li><a href="#projects" class="nav-link">Projects</a></li>
-                <li><a href="#experience" class="nav-link">Experience</a></li>
-                <li><a href="#services" class="nav-link">Services</a></li>
                 <li><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
-            <a href="#contact" class="nav-cta">Get In Touch</a>
             <div class="hamburger">
                 <span class="bar"></span>
                 <span class="bar"></span>
@@ -33,41 +34,238 @@
     <main>
         <!-- Hero Section -->
         <section id="home" class="hero">
-            <div class="container">
-                <div class="hero-content">
+            <div class="hero-content">
+                <div class="hero-text">
                     <h1 class="hero-title">
-                        Crafting Digital <br>
-                        <span class="gradient-text">Experiences</span>
+                        <span class="title-line">Carpe Diem</span>
+                        <span class="title-subtitle">Software Engineer</span>
                     </h1>
+                    <p class="hero-quote">
+                        "No matter what anybody tells you, words and ideas can change the world."
+                    </p>
                     <p class="hero-description">
-                        Full-stack software engineer specializing in building exceptional web applications. 
-                        Transform your ideas into powerful digital solutions with modern technologies.
+                        Crafting elegant solutions through code, one line at a time.
                     </p>
                     <div class="hero-buttons">
-                        <a href="#contact" class="btn btn-primary">Get Started Now</a>
-                        <a href="#projects" class="btn btn-secondary">See Projects</a>
+                        <a href="#projects" class="btn btn-primary">View My Work</a>
+                        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
                     </div>
-                    <div class="scroll-indicator">
-                        <span>Scroll down</span>
-                        <span>to see projects</span>
-                        <div class="scroll-arrow">
-                            <i class="fas fa-arrow-down"></i>
+                </div>
+                <div class="hero-image">
+                    <div class="book-stack">
+                        <div class="book book-1"></div>
+                        <div class="book book-2"></div>
+                        <div class="book book-3"></div>
+                        <div class="quill">
+                            <i class="fas fa-feather-alt"></i>
                         </div>
                     </div>
                 </div>
-                <div class="hero-visual">
-                    <div class="floating-cards">
-                        <div class="tech-card" data-tech="React">
-                            <i class="fab fa-react"></i>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <div class="quote-card">
+                            <p class="quote">"We don't read and write poetry because it's cute. We read and write poetry because we are members of the human race."</p>
+                            <p class="about-description">
+                                As a passionate Software Engineer, I believe in the poetry of code - the elegant dance of logic and creativity that brings ideas to life. With a deep appreciation for craftsmanship and attention to detail, I transform complex problems into simple, beautiful solutions.
+                            </p>
+                            <p class="about-description">
+                                My journey in technology is driven by the same curiosity and wonder that the Dead Poets Society embodied - constantly questioning, learning, and pushing boundaries to create something meaningful.
+                            </p>
                         </div>
-                        <div class="tech-card" data-tech="Node.js">
-                            <i class="fab fa-node-js"></i>
+                        <div class="stats">
+                            <div class="stat">
+                                <h3>3+</h3>
+                                <p>Years Experience</p>
+                            </div>
+                            <div class="stat">
+                                <h3>50+</h3>
+                                <p>Projects Completed</p>
+                            </div>
+                            <div class="stat">
+                                <h3>10+</h3>
+                                <p>Technologies Mastered</p>
+                            </div>
                         </div>
-                        <div class="tech-card" data-tech="Python">
-                            <i class="fab fa-python"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Academic Achievements Section -->
+        <section id="academics" class="academics">
+            <div class="container">
+                <h2 class="section-title">Academic Achievements</h2>
+                <p class="section-subtitle">"The powerful play goes on, and you may contribute a verse"</p>
+                
+                <div class="academics-content">
+                    <div class="education-timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-icon">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <div class="timeline-content">
+                                <div class="timeline-card">
+                                    <h3>Master of Science in Computer Science</h3>
+                                    <h4>University Name</h4>
+                                    <span class="timeline-date">2020 - 2022</span>
+                                    <p>Specialized in Artificial Intelligence and Machine Learning. Thesis: "Deep Learning Applications in Natural Language Processing"</p>
+                                    <div class="achievements">
+                                        <span class="achievement-tag">GPA: 3.8/4.0</span>
+                                        <span class="achievement-tag">Magna Cum Laude</span>
+                                        <span class="achievement-tag">Dean's List</span>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="tech-card" data-tech="TypeScript">
-                            <i class="fab fa-js-square"></i>
+
+                        <div class="timeline-item">
+                            <div class="timeline-icon">
+                                <i class="fas fa-university"></i>
+                            </div>
+                            <div class="timeline-content">
+                                <div class="timeline-card">
+                                    <h3>Bachelor of Science in Software Engineering</h3>
+                                    <h4>University Name</h4>
+                                    <span class="timeline-date">2016 - 2020</span>
+                                    <p>Comprehensive study of software development principles, algorithms, and system design. Senior project focused on web application development.</p>
+                                    <div class="achievements">
+                                        <span class="achievement-tag">GPA: 3.7/4.0</span>
+                                        <span class="achievement-tag">Summa Cum Laude</span>
+                                        <span class="achievement-tag">Honor Society</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="academic-grid">
+                        <div class="academic-category">
+                            <div class="academic-icon">
+                                <i class="fas fa-trophy"></i>
+                            </div>
+                            <h3>Honors & Awards</h3>
+                            <ul class="academic-list">
+                                <li>Outstanding Student in Computer Science (2022)</li>
+                                <li>Best Senior Project Award (2020)</li>
+                                <li>Academic Excellence Scholarship (2018-2020)</li>
+                                <li>Programming Competition Winner (2019)</li>
+                                <li>Research Excellence Award (2021)</li>
+                            </ul>
+                        </div>
+
+                        <div class="academic-category">
+                            <div class="academic-icon">
+                                <i class="fas fa-certificate"></i>
+                            </div>
+                            <h3>Certifications</h3>
+                            <ul class="academic-list">
+                                <li>AWS Certified Solutions Architect</li>
+                                <li>Google Cloud Professional Developer</li>
+                                <li>Microsoft Azure Fundamentals</li>
+                                <li>Oracle Java SE 11 Developer</li>
+                                <li>Certified Kubernetes Administrator</li>
+                            </ul>
+                        </div>
+
+                        <div class="academic-category">
+                            <div class="academic-icon">
+                                <i class="fas fa-book"></i>
+                            </div>
+                            <h3>Publications & Research</h3>
+                            <ul class="academic-list">
+                                <li>"Machine Learning in Web Development" - IEEE Conference (2022)</li>
+                                <li>"Optimizing Database Performance" - Journal of Computer Science (2021)</li>
+                                <li>"AI-Driven User Experience Design" - Research Paper (2021)</li>
+                                <li>Contributing Author - "Modern Web Technologies" Book (2022)</li>
+                            </ul>
+                        </div>
+
+                        <div class="academic-category">
+                            <div class="academic-icon">
+                                <i class="fas fa-flask"></i>
+                            </div>
+                            <h3>Academic Projects</h3>
+                            <ul class="academic-list">
+                                <li>Distributed Systems Research Project</li>
+                                <li>Machine Learning Thesis Project</li>
+                                <li>Senior Capstone: E-Learning Platform</li>
+                                <li>Natural Language Processing Research</li>
+                                <li>Blockchain Technology Implementation</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="quote-banner">
+                        <div class="quote-content">
+                            <p class="banner-quote">"Medicine, law, business, engineering - these are noble pursuits and necessary to sustain life. But poetry, beauty, romance, love - these are what we stay alive for."</p>
+                            <p class="quote-context">Just as the Dead Poets Society believed in the power of words and ideas, my academic journey has been driven by the pursuit of knowledge and the desire to make a meaningful impact through technology.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills">
+            <div class="container">
+                <h2 class="section-title">Technical Arsenal</h2>
+                <p class="section-subtitle">"Sucking the marrow out of life" through technology</p>
+                
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3><i class="fas fa-code"></i> Frontend</h3>
+                        <div class="skill-list">
+                            <span class="skill-item">JavaScript</span>
+                            <span class="skill-item">TypeScript</span>
+                            <span class="skill-item">React</span>
+                            <span class="skill-item">Vue.js</span>
+                            <span class="skill-item">HTML5</span>
+                            <span class="skill-item">CSS3</span>
+                            <span class="skill-item">Sass</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h3><i class="fas fa-server"></i> Backend</h3>
+                        <div class="skill-list">
+                            <span class="skill-item">Node.js</span>
+                            <span class="skill-item">Python</span>
+                            <span class="skill-item">Java</span>
+                            <span class="skill-item">Express.js</span>
+                            <span class="skill-item">Django</span>
+                            <span class="skill-item">REST APIs</span>
+                            <span class="skill-item">GraphQL</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h3><i class="fas fa-database"></i> Database</h3>
+                        <div class="skill-list">
+                            <span class="skill-item">PostgreSQL</span>
+                            <span class="skill-item">MongoDB</span>
+                            <span class="skill-item">MySQL</span>
+                            <span class="skill-item">Redis</span>
+                            <span class="skill-item">Firebase</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h3><i class="fas fa-tools"></i> Tools & Others</h3>
+                        <div class="skill-list">
+                            <span class="skill-item">Git</span>
+                            <span class="skill-item">Docker</span>
+                            <span class="skill-item">AWS</span>
+                            <span class="skill-item">Vercel</span>
+                            <span class="skill-item">Jest</span>
+                            <span class="skill-item">Webpack</span>
+                            <span class="skill-item">Linux</span>
                         </div>
                     </div>
                 </div>
@@ -77,23 +275,23 @@
         <!-- Projects Section -->
         <section id="projects" class="projects">
             <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">Recent Works</h2>
-                    <p class="section-subtitle">Showcase of innovative software solutions and digital experiences</p>
-                </div>
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">"Seize the day" through code</p>
                 
                 <div class="projects-grid">
-                    <div class="project-card featured">
+                    <div class="project-card">
                         <div class="project-image">
+                            <div class="project-placeholder">
+                                <i class="fas fa-laptop-code"></i>
+                            </div>
                             <div class="project-overlay">
-                                <a href="#" class="project-link">View Case Study</a>
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
                                 <a href="#" class="project-github"><i class="fab fa-github"></i></a>
                             </div>
                         </div>
-                        <div class="project-info">
-                            <span class="project-category">Full-Stack Web App</span>
+                        <div class="project-content">
                             <h3>E-Commerce Platform</h3>
-                            <p>Complete e-commerce solution with React, Node.js, and PostgreSQL. Features real-time inventory, payment processing, and admin dashboard.</p>
+                            <p>A full-stack e-commerce solution with React, Node.js, and PostgreSQL. Features include user authentication, payment processing, and admin dashboard.</p>
                             <div class="project-tech">
                                 <span>React</span>
                                 <span>Node.js</span>
@@ -102,397 +300,47 @@
                             </div>
                         </div>
                     </div>
-
+                    
                     <div class="project-card">
                         <div class="project-image">
+                            <div class="project-placeholder">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
                             <div class="project-overlay">
-                                <a href="#" class="project-link">View Case Study</a>
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
                                 <a href="#" class="project-github"><i class="fab fa-github"></i></a>
                             </div>
                         </div>
-                        <div class="project-info">
-                            <span class="project-category">Data Visualization</span>
-                            <h3>Analytics Dashboard</h3>
-                            <p>Interactive dashboard for real-time data analysis with D3.js and Python backend.</p>
+                        <div class="project-content">
+                            <h3>Data Visualization Dashboard</h3>
+                            <p>Interactive dashboard for data analysis built with D3.js and Python. Real-time data processing and beautiful visualizations.</p>
                             <div class="project-tech">
                                 <span>D3.js</span>
                                 <span>Python</span>
-                                <span>FastAPI</span>
+                                <span>Flask</span>
+                                <span>MongoDB</span>
                             </div>
                         </div>
                     </div>
-
+                    
                     <div class="project-card">
                         <div class="project-image">
+                            <div class="project-placeholder">
+                                <i class="fas fa-mobile-alt"></i>
+                            </div>
                             <div class="project-overlay">
-                                <a href="#" class="project-link">View Case Study</a>
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
                                 <a href="#" class="project-github"><i class="fab fa-github"></i></a>
                             </div>
                         </div>
-                        <div class="project-info">
-                            <span class="project-category">Mobile App</span>
-                            <h3>Task Management</h3>
-                            <p>Cross-platform mobile app with real-time collaboration features.</p>
+                        <div class="project-content">
+                            <h3>Task Management App</h3>
+                            <p>A responsive task management application with real-time collaboration features. Built with Vue.js and Firebase.</p>
                             <div class="project-tech">
-                                <span>React Native</span>
+                                <span>Vue.js</span>
                                 <span>Firebase</span>
-                                <span>Redux</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="project-card">
-                        <div class="project-image">
-                            <div class="project-overlay">
-                                <a href="#" class="project-link">View Case Study</a>
-                                <a href="#" class="project-github"><i class="fab fa-github"></i></a>
-                            </div>
-                        </div>
-                        <div class="project-info">
-                            <span class="project-category">DevOps</span>
-                            <h3>CI/CD Pipeline</h3>
-                            <p>Automated deployment system with Docker and Kubernetes orchestration.</p>
-                            <div class="project-tech">
-                                <span>Docker</span>
-                                <span>Kubernetes</span>
-                                <span>Jenkins</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="projects-footer">
-                    <a href="#contact" class="btn btn-outline">View All Projects</a>
-                    <a href="#contact" class="btn btn-primary">Book a Free Call</a>
-                </div>
-            </div>
-        </section>
-
-        <!-- Experience Section -->
-        <section id="experience" class="experience">
-            <div class="container">
-                <div class="experience-content">
-                    <div class="experience-intro">
-                        <div class="profile-image">
-                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=300&fit=crop&crop=face" alt="VanBap Profile" />
-                        </div>
-                        <div class="intro-text">
-                            <h2>Meet VanBap</h2>
-                            <p>I'm a passionate Software Engineer based in Vietnam. I specialize in crafting robust web applications and scalable systems that solve real-world problems, blending technical expertise with creative problem-solving.</p>
-                        </div>
-                    </div>
-
-                    <div class="skills-technologies">
-                        <div class="skill-category">
-                            <h3>Frontend Development</h3>
-                        </div>
-                        <div class="skill-category">
-                            <h3>Backend Development</h3>
-                        </div>
-                        <div class="skill-category">
-                            <h3>Database Design</h3>
-                        </div>
-                        <div class="skill-category">
-                            <h3>DevOps & Cloud</h3>
-                        </div>
-                        <div class="skill-category">
-                            <h3>Mobile Development</h3>
-                        </div>
-                        <div class="skill-category">
-                            <h3>Machine Learning</h3>
-                        </div>
-                    </div>
-
-                    <div class="work-experience">
-                        <div class="experience-timeline">
-                            <div class="experience-item current">
-                                <div class="experience-badge">Currently</div>
-                                <div class="experience-details">
-                                    <h3>Senior Software Engineer</h3>
-                                    <h4>Tech Company</h4>
-                                    <p>Leading full-stack development projects, mentoring junior developers, and architecting scalable solutions.</p>
-                                </div>
-                            </div>
-
-                            <div class="experience-item">
-                                <div class="experience-badge">2022-24</div>
-                                <div class="experience-details">
-                                    <h3>Full Stack Developer</h3>
-                                    <h4>Digital Agency</h4>
-                                    <p>Developed web applications for various clients using React, Node.js, and cloud technologies.</p>
-                                </div>
-                            </div>
-
-                            <div class="experience-item">
-                                <div class="experience-badge">2020-22</div>
-                                <div class="experience-details">
-                                    <h3>Software Developer</h3>
-                                    <h4>Startup Company</h4>
-                                    <p>Built MVP products from concept to deployment, focusing on user experience and performance optimization.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Services Section -->
-        <section id="services" class="services">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">Services</h2>
-                    <p class="section-subtitle">Comprehensive software development solutions to bring your ideas to life</p>
-                </div>
-
-                <div class="services-grid">
-                    <div class="service-card">
-                        <div class="service-icon">
-                            <i class="fas fa-laptop-code"></i>
-                        </div>
-                        <h3>Web Development</h3>
-                        <p>Full-stack web applications with modern frameworks, responsive design, and optimal performance.</p>
-                        <ul class="service-features">
-                            <li>React & Vue.js Applications</li>
-                            <li>Node.js & Python Backends</li>
-                            <li>Database Design & Integration</li>
-                            <li>API Development & Integration</li>
-                        </ul>
-                    </div>
-
-                    <div class="service-card">
-                        <div class="service-icon">
-                            <i class="fas fa-mobile-alt"></i>
-                        </div>
-                        <h3>Mobile Development</h3>
-                        <p>Cross-platform mobile applications that deliver native performance and user experience.</p>
-                        <ul class="service-features">
-                            <li>React Native Development</li>
-                            <li>iOS & Android Apps</li>
-                            <li>App Store Deployment</li>
-                            <li>Maintenance & Updates</li>
-                        </ul>
-                    </div>
-
-                    <div class="service-card">
-                        <div class="service-icon">
-                            <i class="fas fa-cloud"></i>
-                        </div>
-                        <h3>Cloud & DevOps</h3>
-                        <p>Scalable cloud infrastructure, CI/CD pipelines, and automated deployment solutions.</p>
-                        <ul class="service-features">
-                            <li>AWS & Google Cloud Setup</li>
-                            <li>Docker & Kubernetes</li>
-                            <li>CI/CD Pipeline Configuration</li>
-                            <li>Monitoring & Optimization</li>
-                        </ul>
-                    </div>
-
-                    <div class="service-card">
-                        <div class="service-icon">
-                            <i class="fas fa-cogs"></i>
-                        </div>
-                        <h3>System Architecture</h3>
-                        <p>Design and implement robust, scalable system architectures for complex applications.</p>
-                        <ul class="service-features">
-                            <li>Microservices Architecture</li>
-                            <li>Database Optimization</li>
-                            <li>Performance Tuning</li>
-                            <li>Security Implementation</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="services-footer">
-                    <a href="#contact" class="btn btn-primary">Book a Free Call</a>
-                    <a href="#projects" class="btn btn-outline">See Projects</a>
-                </div>
-            </div>
-        </section>
-
-        <!-- Process Section -->
-        <section id="process" class="process">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">Process</h2>
-                    <p class="section-subtitle">A streamlined approach to delivering exceptional software solutions</p>
-                </div>
-
-                <div class="process-steps">
-                    <div class="process-step">
-                        <div class="step-number">1</div>
-                        <div class="step-content">
-                            <h3>Discovery & Planning</h3>
-                            <p>We start by understanding your requirements, goals, and constraints. Define project scope, timelines, and technical specifications through detailed consultation.</p>
-                        </div>
-                    </div>
-
-                    <div class="process-step">
-                        <div class="step-number">2</div>
-                        <div class="step-content">
-                            <h3>Design & Architecture</h3>
-                            <p>Create system architecture, database design, and UI/UX mockups. Establish development workflow and choose the optimal technology stack for your project.</p>
-                        </div>
-                    </div>
-
-                    <div class="process-step">
-                        <div class="step-number">3</div>
-                        <div class="step-content">
-                            <h3>Development & Testing</h3>
-                            <p>Agile development with regular updates and feedback loops. Comprehensive testing ensures quality, security, and performance before deployment.</p>
-                        </div>
-                    </div>
-
-                    <div class="process-step">
-                        <div class="step-number">4</div>
-                        <div class="step-content">
-                            <h3>Deployment & Support</h3>
-                            <p>Seamless deployment to production with monitoring setup. Ongoing support, maintenance, and feature updates to ensure continued success.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="process-footer">
-                    <a href="#contact" class="btn btn-primary">Start Your Project</a>
-                </div>
-            </div>
-        </section>
-
-        <!-- Testimonials Section -->
-        <section id="testimonials" class="testimonials">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">Client Reviews</h2>
-                    <p class="section-subtitle">Real feedback from clients who trusted my expertise to build their software solutions</p>
-                </div>
-
-                <div class="testimonials-grid">
-                    <div class="testimonial-card">
-                        <div class="testimonial-content">
-                            <div class="stars">
-                                <span>★★★★★</span>
-                                <span class="rating">5.0</span>
-                            </div>
-                            <p>"VanBap delivered an exceptional web application that exceeded our expectations. His technical expertise and attention to detail resulted in a robust, scalable solution."</p>
-                        </div>
-                        <div class="client-info">
-                            <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=60&h=60&fit=crop&crop=face" alt="Client" />
-                            <div>
-                                <h4>John Smith</h4>
-                                <span>CEO, TechStart Inc</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="testimonial-card">
-                        <div class="testimonial-content">
-                            <div class="stars">
-                                <span>★★★★★</span>
-                                <span class="rating">5.0</span>
-                            </div>
-                            <p>"Professional, reliable, and innovative. VanBap transformed our legacy system into a modern, efficient platform. Highly recommended for any software project."</p>
-                        </div>
-                        <div class="client-info">
-                            <img src="https://images.unsplash.com/photo-1494790108755-2616b612b830?w=60&h=60&fit=crop&crop=face" alt="Client" />
-                            <div>
-                                <h4>Sarah Johnson</h4>
-                                <span>CTO, DataFlow Systems</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="testimonial-card">
-                        <div class="testimonial-content">
-                            <div class="stars">
-                                <span>★★★★★</span>
-                                <span class="rating">5.0</span>
-                            </div>
-                            <p>"Outstanding mobile app development. VanBap understood our vision and delivered a product that our users love. Great communication throughout the process."</p>
-                        </div>
-                        <div class="client-info">
-                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=60&h=60&fit=crop&crop=face" alt="Client" />
-                            <div>
-                                <h4>Mike Chen</h4>
-                                <span>Founder, MobileFirst</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="stats-section">
-                    <div class="stat-item">
-                        <h3>50+</h3>
-                        <p>Projects completed</p>
-                    </div>
-                    <div class="stat-item">
-                        <h3>98%</h3>
-                        <p>Client satisfaction rate</p>
-                    </div>
-                    <div class="stat-item">
-                        <h3>3+</h3>
-                        <p>Years of experience</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- FAQ Section -->
-        <section id="faq" class="faq">
-            <div class="container">
-                <div class="faq-content">
-                    <div class="faq-intro">
-                        <h2>Frequently Asked Questions</h2>
-                        <p>Find answers to common questions about my development process and services</p>
-                    </div>
-
-                    <div class="faq-list">
-                        <div class="faq-item">
-                            <div class="faq-question">
-                                <h3>What technologies do you specialize in?</h3>
-                                <i class="fas fa-plus"></i>
-                            </div>
-                            <div class="faq-answer">
-                                <p>I specialize in modern web technologies including React, Vue.js, Node.js, Python, TypeScript, and cloud platforms like AWS and Google Cloud. I also work with mobile development using React Native and various databases.</p>
-                            </div>
-                        </div>
-
-                        <div class="faq-item">
-                            <div class="faq-question">
-                                <h3>How long does a typical project take?</h3>
-                                <i class="fas fa-plus"></i>
-                            </div>
-                            <div class="faq-answer">
-                                <p>Project timelines vary based on complexity and scope. Simple websites take 2-4 weeks, while complex web applications can take 2-6 months. I provide detailed timelines during the planning phase.</p>
-                            </div>
-                        </div>
-
-                        <div class="faq-item">
-                            <div class="faq-question">
-                                <h3>Do you provide ongoing support and maintenance?</h3>
-                                <i class="fas fa-plus"></i>
-                            </div>
-                            <div class="faq-answer">
-                                <p>Yes, I offer comprehensive support and maintenance packages including bug fixes, security updates, feature enhancements, and performance monitoring to ensure your application continues to run smoothly.</p>
-                            </div>
-                        </div>
-
-                        <div class="faq-item">
-                            <div class="faq-question">
-                                <h3>What is your development process?</h3>
-                                <i class="fas fa-plus"></i>
-                            </div>
-                            <div class="faq-answer">
-                                <p>I follow an agile methodology with regular communication and feedback loops. The process includes discovery, planning, design, development, testing, deployment, and ongoing support.</p>
-                            </div>
-                        </div>
-
-                        <div class="faq-item">
-                            <div class="faq-question">
-                                <h3>How do you handle project communication?</h3>
-                                <i class="fas fa-plus"></i>
-                            </div>
-                            <div class="faq-answer">
-                                <p>I maintain transparent communication through regular video calls, progress updates, and project management tools. You'll have direct access to me and regular updates on project status.</p>
+                                <span>Vuex</span>
+                                <span>PWA</span>
                             </div>
                         </div>
                     </div>
@@ -503,46 +351,51 @@
         <!-- Contact Section -->
         <section id="contact" class="contact">
             <div class="container">
+                <h2 class="section-title">Let's Connect</h2>
+                <p class="section-subtitle">"Words and ideas can change the world"</p>
+                
                 <div class="contact-content">
-                    <div class="contact-intro">
-                        <h2>Ready to bring your ideas to life?</h2>
-                        <p>Let's discuss your project and create something extraordinary together!</p>
-                    </div>
-
-                    <div class="contact-options">
-                        <a href="mailto:vanbap@example.com" class="contact-method">
-                            <div class="contact-icon">
-                                <i class="fas fa-envelope"></i>
-                            </div>
-                            <div class="contact-details">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
                                 <h3>Email</h3>
-                                <p>vanbap@example.com</p>
+                                <p>your.email@example.com</p>
                             </div>
-                        </a>
-
-                        <a href="https://linkedin.com/in/vanbap" class="contact-method">
-                            <div class="contact-icon">
-                                <i class="fab fa-linkedin"></i>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h3>Location</h3>
+                                <p>Your City, Country</p>
                             </div>
-                            <div class="contact-details">
-                                <h3>LinkedIn</h3>
-                                <p>Connect with me</p>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h3>Phone</h3>
+                                <p>+1 (555) 123-4567</p>
                             </div>
-                        </a>
-
-                        <a href="https://github.com/VanBap" class="contact-method">
-                            <div class="contact-icon">
-                                <i class="fab fa-github"></i>
-                            </div>
-                            <div class="contact-details">
-                                <h3>GitHub</h3>
-                                <p>View my code</p>
-                            </div>
-                        </a>
+                        </div>
                     </div>
-
-                    <div class="contact-cta">
-                        <a href="#contact" class="btn btn-primary btn-large">Book a Free Consultation</a>
+                    
+                    <div class="social-links">
+                        <a href="#" class="social-link">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-twitter"></i>
+                            <span>Twitter</span>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fas fa-file-pdf"></i>
+                            <span>Resume</span>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -551,15 +404,7 @@
 
     <footer class="footer">
         <div class="container">
-            <div class="footer-content">
-                <div class="footer-left">
-                    <span class="footer-logo">VanBap</span>
-                    <p>Available for new projects</p>
-                </div>
-                <div class="footer-right">
-                    <p>&copy; 2025 All rights reserved</p>
-                </div>
-            </div>
+            <p>&copy; 2024 Software Engineer Portfolio. "Carpe Diem" - Seize the day through code.</p>
         </div>
     </footer>
 

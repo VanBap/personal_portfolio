@@ -65,7 +65,7 @@ This portfolio is deployed on GitHub Pages. To deploy your own version:
 2. Go to Settings > Pages
 3. Select "Deploy from a branch"
 4. Choose "main" branch and "/ (root)" folder
-5. Your site will be available at `hhttps://vanbap.github.io/personal_portfolio/`
+5. Your site will be available at `https://yourusername.github.io/portfolio`
 
 ## 📝 Customization
 
